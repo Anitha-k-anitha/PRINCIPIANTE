@@ -1,10 +1,10 @@
 ![Electron Notion](https://user-images.githubusercontent.com/64391274/235363274-375ce61c-721f-4543-a150-1b99525d54ac.png)
 
 
-# Project Name
+# Principiante
 Long Description about project. This project do that. This project is awesome...
 ## Team members
-1. Name [Embed personal github URL]
+1. Anitha [https://github.com/Anitha-k-anitha]
 2. Name [Embed perosnal github URL]
 ## Link to product walkthrough
 [link to video]
