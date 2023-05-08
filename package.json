@@ -4,11 +4,14 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^24.2.0"
+    "builder": "^5.0.0",
+    "electron": "^24.2.0",
+    "nodemon": "^2.0.22"
   }
 }
