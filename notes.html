@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style-notes.css">
+
+    <title>Write note</title>
+</head>
+<body>
+    <p class="date"><i class="far fa-calendar-alt"></i><span id="date"></span></p>
+    <form action="">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title"><br>
+        <label for="entry">Write here:</label><br>
+        <textarea id="entry" name="entry" rows="15" cols="50"></textarea><br>
+        <button type="submit">save</button>
+    </form>
+    <script>
+        var today = new Date();
+        var date = today.toLocaleDateString();
+        document.getElementById("date").innerHTML=date;
+    </script>
+</body>
+</html>
